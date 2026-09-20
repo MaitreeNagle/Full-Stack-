@@ -91,19 +91,51 @@
     <hr>
     <h1>Task 3:</h1>
     <fieldset>
-        <form aligment="center">
+        <!-- <form aligment="center">
             <h1>Registeration Form</h1>
             <p>Of course, all submit information is kept in the strictest confidence You always retain control of your information with D.W simpson & Co.</p>
             <h4>Our servives are always at no cost to you</h4>
-            <label for="name">Name</label> <input type="text" id="name" class="name"><br><br>
-            <label for="address">Address :</label><textarea name="name" id="address"></textarea><br>
-            <label for="cityname">City:</label> <input type="text" id="cityname" class="name">
-            <label for="state">State/Proovice</label> <input type="text" id="state" class="name"><br><br>
-            <label for="PIN">Zip Code</label>
-            <input type="number" id="PIN" class="PIN"> <br><br>
-            <label for="Country">Country:</label> <input type="text" id="Country" class="name"><br><br>
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td> <label for="name">Name</label> <input type="text" id="name" class="name"><br><br></td>
+                </tr>
+                <tr>
+                    <td> <label for="address">Address :</label><textarea name="name" id="address"></textarea><br></td>
+                    <td> <label for="cityname">City:</label> <input type="text" id="cityname" class="name"></td>
 
-            <label for="email">Email Address:</label> <input type="email" id="email"><br><br>
+                </tr>
+                <tr>
+                    <td> <label for="state">State/Proovice</label> <input type="text" id="state" class="name"><br><br></td>
+                </tr>
+                <tr>
+                    <td> <label for="PIN">Zip Code</label></td>
+                </tr>
+                <tr>
+                    <td> <input type="number" id="PIN" class="PIN"> <br><br></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Country">Country:</label> <input type="text" id="Country" class="name"><br><br></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email Address:</label> <input type="email" id="email"><br><br></td>
+                </tr>
+
+
+            </table>
+
+
+
+
+
+
+
+
 
             <label for=" no">Phone:(H)</label>
             <input type="number" id="no " class="no ">
@@ -154,7 +186,180 @@
             <br><br>
             <label for="other">Other:</label> <input type="text" id="other" class="other"><br><br> <label for="des">Designation:</label>
 
-        </form>
+        </form> -->
+        <table border="0" cellpadding="5" cellspacing="0" width="600">
+            <h2 align="center">Registration Form</h2>
+            <forms align="center">
+                <p>Of course, all submitted information is kept in the strictest confidence.<br> You always reain control of your information with D.W. Simpson & Co.<br> <b>Our services are always at no cost to you</b></p>
+
+                <tr>
+                    <td><label for="name"><b>Name:</b></label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Address"><b>Address:</b></label></td>
+                    <td><input type="text" name="address" id="address"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="cityName"><b>City:</b></label></td>
+                    <td><input type="text" name="cityName" id="cityName"></td>
+
+                    <td><label for="stateName"><b>State/Province:</b></label></td>
+                    <td><input type="text" name="stateName" id="stateName"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="code"><b>Zip Code:</b></label></td>
+                    <td><input type="password" name="code" id="code"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="country"><b>Country:</b></label></td>
+                    <td><input type="text" name="countryName" id="countryName"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phoneNum"><b>Phone:(H) </b></label></td>
+                    <td><input type="number" name="phoneNum" id="phoneNum"></td>
+
+                    <td><label for="fax"><b>Fax:</b></label></td>
+                    <td><input type="number" name="fax" id="fax"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phoneNum"><b>Phone:(W) </b></label></td>
+                    <td><input type="number" name="phoneNum" id="phoneNum"> (if able to speak freely)</td>
+                </tr>
+
+                <tr>
+                    <td><label for="email"><b>Email:</b></label></td>
+                    <td><input type="text" name="youremail" id="youremail"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="company"><b>Company Name:</b></label></td>
+                    <td> <input type="text" name="companyname" id="componyname"> (optional)</td>
+                </tr>
+
+                <tr>
+                    <td><label for="region"><b>Desired Region:</b>
+                </label></td>
+                    <td>
+                        <select>
+                <option value="">Other</option>
+                <option value="">Hinduism</option>
+                <option value="">Jainism</option>
+                <option value="">Buddhism</option>
+                <option value="">Islam</option>
+                </select></td>
+
+                    <td><b>Other:</b></td>
+                    <td><input type="text" name="other" id="other"></td>
+                </tr>
+                <!-- 
+                <tr>
+                    <td>
+                        <label for="professions"><b>Professional designations earned:</b></label></td>
+                    <td><input type="checkbox" name="professions" id="professions">
+                        <span>College Student</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>Actuarial Student</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>ACAS</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>FCAS</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>ASA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>FSA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>EA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>CFA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>MBA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>MAAA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>FIA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>FCIA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>FIAA</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>Financial Engineer</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>M.s.</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>Ph.D.</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>Dta Mining</span>
+
+                        <input type="checkbox" name="professions" id="professions">
+                        <span>Quant</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="others"><b>Other Designations:</b></label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr> -->
+            </forms>
+        </table>
+        <label for="earned">Professional designations earned:</label>
+        <input type="checkbox" name="college" id="college" value="college">
+        <span>College Student</span>
+        <input type="checkbox" name="std" id="std" value="std">
+        <span>Acturarial Student</span>
+        <input type="checkbox" name="ACAS" id="ACAS" value="ACAS">
+        <span>ACAS</span>
+        <input type="checkbox" name="ASA" id="ASA" value="ASA">
+        <span>ASA</span>
+        <input type="checkbox" name="FSA" id="FSA" value="FSA">
+        <span>FSA</span>
+        <input type="checkbox" name="EA" id="FSA" value="EA">
+        <span>EA</span>
+        <input type="checkbox" name="CFA" id="CFA" value="CFA">
+        <span>CFA</span>
+        <input type="checkbox" name="MBA" id="MBA" value="MBA">
+        <span>MBA</span>
+        <input type="checkbox" name="MAAA" id="MAAA" value="MAAA">
+        <span>MAAA</span>
+
+        <input type="checkbox" name="FIA" id="FIA" value="FIA">
+        <span>FIA</span>
+        <input type="checkbox" name="FCIA" id="FCIA" value="FCIA">
+        <span>FCIA</span>
+        <input type="checkbox" name="FIAA" id="FIAA" value="FIAA">
+        <span>FIAA</span>
+        <input type="checkbox" name="FIA" id="FIA" value="FIAA">
+        <span>Financial Engieer</span>
+        <input type="checkbox" name="FIA" id="FIA" value="FIAA">
+        <span>Ph.D</span>
+        <br>
+        <br><br>
+        <label for="other">Other:</label> <input type="text" id="other" class="other"><br><br> <label for="des">Designation:</label>
+
+
+
     </fieldset>
     <br>
     <hr>
