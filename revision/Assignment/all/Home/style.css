@@ -1,0 +1,154 @@
+ * Remove default spacing */ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ /* Whole page */
+ 
+ body {
+     font-family: Arial, sans-serif;
+     color: #27213d;
+     background: linear-gradient( 135deg, #d9d1eb, #f5c9d7, #ffd5c4);
+     min-height: 100vh;
+ }
+ /* HEADER */
+ 
+ header {
+     height: 90px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 9%;
+ }
+ /* NAME */
+ 
+ .logo {
+     font-family: cursive;
+     font-size: 30px;
+     font-weight: bold;
+     color: #302342;
+ }
+ /* NAVIGATION */
+ 
+ nav {
+     display: flex;
+     gap: 35px;
+ }
+ 
+ nav a {
+     text-decoration: none;
+     color: #302342;
+     font-size: 17px;
+ }
+ /* Home link */
+ 
+ nav a:first-child {
+     border-bottom: 3px solid #6f3b70;
+     padding-bottom: 8px;
+ }
+ /* Hover */
+ 
+ nav a:hover {
+     color: #a04486;
+ }
+ /* HOME SECTION */
+ 
+ .home {
+     min-height: calc(100vh - 90px);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 40px 9%;
+ }
+ /* LEFT TEXT */
+ 
+ .text {
+     width: 50%;
+ }
+ /* Welcome */
+ 
+ .welcome {
+     font-size: 20px;
+     letter-spacing: 5px;
+     margin-bottom: 20px;
+ }
+ /* Main heading */
+ 
+ h1 {
+     font-family: Georgia, serif;
+     font-size: 65px;
+     margin-bottom: 25px;
+     color: #211b35;
+ }
+ 
+ h1 span {
+     color: #a04486;
+ }
+ /* I'm Maitree */
+ 
+ h2 {
+     font-size: 30px;
+     margin-bottom: 25px;
+ }
+ /* Description */
+ 
+ .description {
+     font-size: 20px;
+     line-height: 1.6;
+     max-width: 600px;
+     margin-bottom: 30px;
+ }
+ /* BUTTON */
+ 
+ .button {
+     display: inline-block;
+     background-color: #a74488;
+     color: white;
+     text-decoration: none;
+     padding: 15px 28px;
+     border-radius: 30px;
+     font-size: 17px;
+ }
+ /* Button hover */
+ 
+ .button:hover {
+     background-color: #7c326b;
+ }
+ /* PHOTO SIDE */
+ 
+ .photo {
+     width: 45%;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ /* PROFILE PHOTO */
+ 
+ .photo img {
+     width: 390px;
+     height: 390px;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 3px solid #302342;
+     box-shadow: 0 0 0 12px rgba(255, 205, 220, 0.5);
+ }
+ /* HEART */
+ 
+ .heart {
+     position: absolute;
+     top: 15px;
+     right: 60px;
+     font-size: 45px;
+     color: #302342;
+ }
+ /* LEAF */
+ 
+ .leaf {
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+     font-size: 80px;
+     color: #302342;
+     transform: rotate(-30deg);
+ }
