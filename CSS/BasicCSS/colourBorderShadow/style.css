@@ -1,42 +1,61 @@
-body {
-    background-color: antiquewhite;
-}
-
-.main {
-    background-color: blueviolet;
-    color: blue;
-}
-
-#card {
-    background-color: rgb(174, 150, 122);
-    width: 500px;
-    height: 300px;
-    border: 1px solid;
-}
-
-#card p {
-    background-color: aquamarine;
-    color: cadetblue;
-    border: 20px groove solid pink;
-    height: 230px;
-    overflow: auto;
-}
-
-#clickBtn {
-    border-color: rgb(12, 12, 227);
-    background-color: rgb(172, 172, 225);
-    border-style: s;
-    border-width: 1px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px rgb(17, 17, 17);
-}
-
-#clickBtn:hover {
-    background-color: aliceblue;
-    color: rgb(104, 30, 17);
-}
-
-#clickBtn:active {
-    background-color: aqua;
-    color: aliceblue;
-}
+    body {
+        background-color: antiquewhite;
+    }
+    
+    .main {
+        background-color: blueviolet;
+        color: blue;
+    }
+    
+    #card {
+        background-color: rgb(174, 150, 122);
+        width: 500px;
+        height: 300px;
+        border: 1px solid;
+    }
+    
+    #card p {
+        background-color: aquamarine;
+        color: cadetblue;
+        border: 20px groove solid pink;
+        height: 230px;
+        overflow: auto;
+    }
+    
+    #div {
+        background-color: whitesmoke;
+        width: 50px;
+        height: 50px;
+        border: 2px solid rgb(145, 23, 43);
+        border-radius: 3px;
+        display: flex;
+        border-spacing: 10px;
+    }
+    
+    #div1 {
+        background-color: whitesmoke;
+        width: 50px;
+        height: 50px;
+        border: 2px solid rgb(145, 23, 43);
+        border-radius: 3px;
+        display: flex;
+    }
+    
+    #clickBtn {
+        border-color: rgb(12, 12, 227);
+        background-color: rgb(172, 172, 225);
+        border-style: s;
+        border-width: 1px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px rgb(17, 17, 17);
+    }
+    
+    #clickBtn:hover {
+        background-color: aliceblue;
+        color: rgb(104, 30, 17);
+    }
+    
+    #clickBtn:active {
+        background-color: aqua;
+        color: aliceblue;
+    }

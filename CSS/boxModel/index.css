@@ -1,0 +1,86 @@
+#a {
+    height: 10 px;
+    width: 20 px;
+    border: 10 px solid black;
+}
+
+#h {
+    height: 10 px;
+    width: 20 px;
+    border: 1 px solid black;
+}
+
+#d {
+    height: 200 px;
+    width: 200 px;
+    border: 5px solid black;
+    border: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#d {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #000;
+}
+
+span {
+    /* height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    padding: 80px;
+    margin: 50px;
+    margin-top: 50px; */
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(169, 202, 230);
+    color: brown;
+    padding-top: 20px;
+    border: 2px solid black;
+}
+
+.button {
+    background-color: palevioletred;
+}
+
+#button:hover {
+    background-color: palevioletred;
+    color: aliceblue;
+}
+
+.A {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(230, 169, 215);
+    color: brown;
+    padding-top: 20px;
+    border: 2px solid black;
+}
+
+.B {
+    background-color: blueviolet;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: brown;
+    padding-top: 20px;
+    border: 2px solid black;
+}

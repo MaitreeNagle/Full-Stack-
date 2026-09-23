@@ -1,0 +1,40 @@
+.resume {
+    width: 900px;
+    background: white;
+    display: flex;
+}
+
+.left {
+    width: 32%;
+    background: #17212b;
+    color: white;
+    padding: 30px;
+    min-height: 1100px;
+    text-align: left;
+}
+
+
+/* CIRCULAR PHOTO */
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+/* RIGHT SIDE */
+
+.right {
+    width: 68%;
+    padding: 40px;
+    color: #333333;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 2;
+}
