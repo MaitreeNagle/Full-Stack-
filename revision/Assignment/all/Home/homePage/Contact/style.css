@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-color: rgb(222, 205, 238);
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    /* position: fixed; */
+    top: 0px;
+}
+
+#menu-item {
+    display: flex;
+    gap: 25px;
+}
+
+footer {
+    position: fixed;
+    bottom: 30px;
+    left: 80px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#github img,
+#instagram img,
+#email img#link img {
+    width: 80px;
+    height: 80px;
+}
+
+#github,
+#instagram,
+#email,
+#link {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+#links {
+    display: inline;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}

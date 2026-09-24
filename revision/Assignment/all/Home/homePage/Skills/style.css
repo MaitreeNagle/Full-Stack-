@@ -1,0 +1,63 @@
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9%;
+    background-color: rgb(108, 152, 108);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* NAME */
+
+.logo {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1a241e;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #611204;
+    font-size: 17px;
+}
+
+#main-heading {
+    color: rgb(55, 14, 14);
+}
+
+footer {
+    align-items: end;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.box {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 29px;
+    text-align: center;
+    background-color: rgb(111, 127, 86);
+    color: rgb(75, 34, 12);
+    padding-top: 20px;
+    border: 2px solid black;
+    grid-template-columns: auto auto;
+}
