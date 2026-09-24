@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    <div>
+    <div id="hello">
         <h1>Application Form</h1>
         <fieldset>
             <legend>Personal details
                 <details></details>
             </legend>
-            <div class=" Applicattion-row">
+            <div class="personal-details">
                 <div><label for=" name ">Application's Full name</label></div>
                 <div>
                     <select name="name " id="name ">
@@ -28,13 +28,12 @@
                 </div>
                 <div>Care Of</div>
                 <div>
-                    <form> <input type="radio "><span>Parents</span> <input type="radio "> <span>Gauardian</span>
-                    </form>
-
+                    <form> <input type="radio"><span>Parents</span>
+                        <input type="radio"> <span>Gauardian</span>
                 </div>
             </div>
 
-            <div class="box ">
+            <div class=" personal-details ">
                 <div>Father's Name </div>
                 <div><select name=" name " id="name ">
                 <option value=" ">Mr.</option>
@@ -49,45 +48,47 @@
                     <option value=" ">Mrs.</option>
                     <option value=" ">Mss</option> 
                      <input type="text " id="name ">   
-                </select></div>
-
-            </div>
-
-            <div class="box ">
-                <div>Gender:</div>
-                <div><label for="gender " </label>
-                    <input type="radio " id="male " value="male ">
-                    <span>Male</span>
-                    <input type="radio " id="female " value="female ">
-                    <span>Female</span> <input type="radio " id="other " value="other ">
-                    <span>Other</span></div>
-
-                <div>Date of Birth</div>
-                <div>
-                    <form action=" "><input type="date " class="date " id="date ">
+                </select>
                 </div>
-            </div>
-            <div class="box ">
-                <div>
-                    <td>Marital Status</td>
+
+
+
+                <div class=" personal-details ">
+                    <div>Gender:</div>
+                    <div><label for="gender " </label>
+                        <input type="radio" id=" male " value="male ">
+                        <span>Male</span>
+                        <input type="radio " id=" female " value="female ">
+                        <span>Female</span> <input type="radio" id=" other " value="other ">
+                        <span>Other</span></div>
+
+                    <div>Date of Birth</div>
+                    <div>
+                        <form action=" "><input type="date " class="date " id="date ">
+                    </div>
                 </div>
-                <div>
-                    <td>
-                        <form>
-                            <select name="name " id="name ">
+                <div class="personal-details ">
+                    <div>
+                        <td>Marital Status</td>
+                    </div>
+                    <div>
+                        <td>
+                            <form>
+                                <select name=" name " id="name ">
                                    <option value=" ">select</option>
                                    <option value=" ">yes</option>
                                    <option value=" ">no</option>  </select>
-                        </form>
-                    </td>
+                            </form>
+                        </td>
+                    </div>
+                    <div></div>
                 </div>
-                <div></div>
-            </div>
 
         </fieldset>
+        <!--      ..................................................... -->
         <fieldset>
             <legend> <b>Course details</b></legend>
-            <h1>Application's full name</h1>
+            <h4>Application's full name</h4>
             <div class="Application ">
                 <div>Mobile No </div>
                 <div> <input type="number "></div>
@@ -118,6 +119,7 @@
             </div>
 
         </fieldset>
+        <!-- ........................................ -->
         <fieldset>
             <legend> <b>Qualification details</b></legend>
             <div class="Qualification-row-heading ">
@@ -129,27 +131,140 @@
                 <div>Percentage</div>
 
             </div>
-            <div class="Qualification-row ">
+            <div class="Qualification-row-heading ">
                 <div>1 </div>
                 <div><select name="name " id="name ">
                     <option value=" ">--Select--</option>
                     <option value=" ">10th</option>
                     <option value=" ">12th</option>
-                    <option value=" ">other</option></select></td>
+                    <option value=" ">other</option></select>
+                </div>
+
+                <div><input type="text "></div>
+                <div> <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="1990 ">
+                </div>
+                <div> <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="4 ">
+                    </form>
+                </div>
+                <div>
+                    <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="2 ">
+                </div>
+
+            </div>
+            <div class="Qualification-row-heading ">
+                <div>2 </div>
+                <div><select name="name " id="name ">
+                    <option value=" ">--Select--</option>
+                    <option value=" ">10th</option>
+                    <option value=" ">12th</option>
+                    <option value=" ">other</option></select>
+                </div>
+
+                <div><input type="text "></div>
+                <div> <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="1990 ">
+                </div>
+                <div> <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="4 ">
+                    </form>
+                </div>
+                <div>
+                    <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="2 ">
+                </div>
+
+            </div>
+            <div class="Qualification-row-heading ">
+                <div>3</div>
+                <div><select name="name " id="name ">
+                    <option value=" ">--Select--</option>
+                    <option value=" ">10th</option>
+                    <option value=" ">12th</option>
+                    <option value=" ">other</option></select>
+                </div>
+
+                <div><input type="text "></div>
+                <div> <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="1990 ">
+                </div>
+                <div> <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="4 ">
+                    </form>
+                </div>
+                <div>
+                    <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="2 ">
+                </div>
+
+            </div>
+            <div class="Qualification-row-heading ">
+                <div>4 </div>
+                <div><select name="name " id="name ">
+                    <option value=" ">--Select--</option>
+                    <option value=" ">10th</option>
+                    <option value=" ">12th</option>
+                    <option value=" ">other</option></select>
+                </div>
+
+                <div><input type="text "></div>
+                <div> <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="1990 ">
+                </div>
+                <div> <label for="number"><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="4 ">
+                    </form>
+                </div>
+                <div>
+                    <label for="number"><a href=" "></a></label>
+                    <input type="number">
+                </div>
+
+            </div>
+            <div class="Qualification-row-heading ">
+                <div>5 </div>
+                <div><select name="name " id="name ">
+                    <option value=" ">--Select--</option>
+                    <option value=" ">10th</option>
+                    <option value=" ">12th</option>
+                    <option value=" ">other</option></select>
+                </div>
+
+                <div><input type="text "></div>
+                <div> <label for="number "><a href=" "></a></label>
+                    <input type="number " id="number " placeholder="1990 ">
+                </div>
+                <div> <label for="number"><a href=" "></a></label>
+                    <input type="number" id="number " placeholder="4 ">
+                    </form>
+                </div>
+                <div>
+                    <label for="number"><a href=" "></a></label>
+                    <input type="number" id="number " placeholder="2 ">
+                </div>
+
+
+                <!-- <div class="Qualification-row ">
+                <div>1 </div>
+                <div><select name="name " id="name ">
+                    <option value=" ">--Select--</option>
+                    
                 </div>
                 <div> <label for="number "><a href=" "></a></label>
                     <input type="number " id="number " placeholder="1990 "></div>
                 <div>
-                    <form action=" ">
+                   
                         <label for="number "><a href=" "></a></label>
                         <input type="number " id="number " placeholder="4 ">
-                    </form>
+                 
                 </div>
                 <div>
-                    <form action=" ">
+                 
                         <label for="number "><a href=" "></a></label>
                         <input type="number " id="number " placeholder="2 ">
-                    </form>
+                   
                 </div>
 
                 <div>
@@ -163,40 +278,40 @@
 
             </div>
             <div class="Qualification-row>
-                <div>2 </div>
-                <div><select name=" name " id="name ">
+                        <div>2 </div>
+                        <div><select name=" name " id="name ">
                     <option value=" ">--Select--</option>
                     <option value=" ">10th</option>
                     <option value=" ">12th</option>
                     <option value=" ">other</option></select></td>
-                </div>
-                <div> <label for="number "><a href=" "></a></label>
-                    <input type="number " id="number " placeholder="1990 "></div>
-                <div>
-                    <form action=" ">
-                        <label for="number "><a href=" "></a></label>
-                        <input type="number " id="number " placeholder="4 ">
-                    </form>
-                </div>
-                <div>
-                    <form action=" ">
-                        <label for="number "><a href=" "></a></label>
-                        <input type="number " id="number " placeholder="2 ">
-                    </form>
-                </div>
+                        </div>
+                        <div> <label for="number "><a href=" "></a></label>
+                            <input type="number " id="number " placeholder="1990 "></div>
+                        <div>
+                            <form action=" ">
+                                <label for="number "><a href=" "></a></label>
+                                <input type="number " id="number " placeholder="4 ">
+                            </form>
+                        </div>
+                        <div>
+                            <form action=" ">
+                                <label for="number "><a href=" "></a></label>
+                                <input type="number " id="number " placeholder="2 ">
+                            </form>
+                        </div>
 
-                <div>
-                    <td>
-                        <form action=" ">
-                            <label for="number "><a href=" "></a></label>
-                            <input type="number " id="number " placeholder="2 ">
-                        </form>
-                    </td>
-                </div>
+                        <div>
+                            <td>
+                                <form action=" ">
+                                    <label for="number "><a href=" "></a></label>
+                                    <input type="number " id="number " placeholder="2 ">
+                                </form>
+                            </td>
+                        </div>
 
-            </div>
+                    </div>
 
-            <div class="Qualification-row>
+                    <div class="Qualification-row>
                 <div>3 </div>
                 <div><select name=" name " id="name ">
                     <option value=" ">--Select--</option>
@@ -230,36 +345,36 @@
 
             </div>
             <div class="Qualification-row>
-                <div>4 </div>
-                <div><select name=" name " id="name ">
+                        <div>4 </div>
+                        <div><select name=" name " id="name ">
                     <option value=" ">--Select--</option>
                     <option value=" ">10th</option>
                     <option value=" ">12th</option>
                     <option value=" ">other</option></select></td>
-                </div>
-                <div> <label for="number "><a href=" "></a></label>
-                    <input type="number " id="number " placeholder="1990 "></div>
-                <div>
-                    <form action=" ">
-                        <label for="number "><a href=" "></a></label>
-                        <input type="number " id="number " placeholder="4 ">
-                    </form>
-                </div>
-                <div>
-                    <form action=" ">
-                        <label for="number "><a href=" "></a></label>
-                        <input type="number " id="number " placeholder="2 ">
-                    </form>
-                </div>
+                        </div>
+                        <div> <label for="number "><a href=" "></a></label>
+                            <input type="number " id="number " placeholder="1990 "></div>
+                        <div>
+                            <form action=" ">
+                                <label for="number "><a href=" "></a></label>
+                                <input type="number " id="number " placeholder="4 ">
+                            </form>
+                        </div>
+                        <div>
+                            <form action=" ">
+                                <label for="number "><a href=" "></a></label>
+                                <input type="number " id="number " placeholder="2 ">
+                            </form>
+                        </div>
 
-                <div>
-                    <td>
-                        <form action=" ">
-                            <label for="number "><a href=" "></a></label>
-                            <input type="number " id="number " placeholder="2 ">
-                        </form>
-                    </td>
-                </div>
+                        <div>
+                            <td>
+                                <form action=" ">
+                                    <label for="number "><a href=" "></a></label>
+                                    <input type="number " id="number " placeholder="2 ">
+                                </form>
+                            </td>
+                        </div> -->
 
             </div>
         </fieldset>
@@ -271,30 +386,33 @@
                 <div>Writing</div>
                 <div>Spoken</div>
             </div>
-            <div class="language ">
+            <div class="language-a">
                 <div>Hindi</div>
-                <div><input type="checkbox "></div>
-                <div><input type="checkbox "></div>
-                <div><input type="checkbox "></div>
+                <div><input type="checkbox"></div>
+                <div><input type="checkbox"></div>
+                <div><input type="checkbox"></div>
+
+
             </div>
-            <div class="language ">
+            <div class=" language-a">
                 <div>English</div>
-                <div><input type="checkbox "></div>
-                <div><input type="checkbox "></div>
-                <div><input type="checkbox "></div>
+                <div><input type="checkbox"></div>
+                <div><input type="checkbox"></div>
+                <div><input type="checkbox"></div>
+
+
             </div>
-
-
-            <div class="language ">
+            <div class=" language-a">
                 <div>Urdu</div>
-                <div><input type="checkbox "></div>
-                <div><input type="checkbox "></div>
-                <div><input type="checkbox "></div>
+                <div><input type="checkbox"></div>
+                <div><input type="checkbox"></div>
+                <div><input type="checkbox"></div>
+
             </div>
         </fieldset>
         <fieldset>
             <legend> <b>Identification details</b></legend>
-            <div class="language ">
+            <div class=" language ">
                 <div>Aadhar Card Number</div>
                 <div><input type="number " id="name ">
                 </div>
@@ -310,6 +428,7 @@
 
         </fieldset>
 
+        </div>
     </div>
 
 </body>
