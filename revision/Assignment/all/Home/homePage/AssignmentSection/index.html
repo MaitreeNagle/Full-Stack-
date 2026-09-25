@@ -7,8 +7,8 @@
     <title>Document</title>
     <style>
         * {
-            /* background-color: plum; */
-            background-image: ;
+            padding: 0px;
+            margin: 0px;
         }
         
         .home {
@@ -29,43 +29,115 @@
             background-color: rgb(104, 30, 17);
             color: red;
         }
+        
+        .footer {
+            align-items: end;
+            padding-left: 500px;
+            padding-top: 500px;
+            margin: 300px;
+            border: 5px solid red;
+        }
+        
+        .box {
+            height: 250px;
+            width: 250px;
+            margin-top: 20px;
+            margin-left: 300px;
+            border-radius: 29px;
+            text-align: center;
+            background-color: rgb(207, 168, 220);
+            color: rgb(68, 4, 77);
+            border: 2px solid rgb(28, 10, 24);
+            box-shadow: 5px 5px 15px rgb(66, 4, 64);
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 350px 350px;
+            gap: 20px;
+        }
+        
+        header {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            height: 80px;
+            padding: 0 9%;
+        }
+        
+        nav {
+            display: flex;
+            gap: 35px;
+        }
+        
+        nav a {
+            height: 10px;
+            color: #302342;
+            font-size: 17px;
+        }
+        
+        h1 {
+            font-family: cursive;
+            font-size: 30px;
+            font-weight: bold;
+            color: #302342;
+        }
     </style>
 </head>
 
-<body background="./back.jpg">
-
-    <h1>My Assignment</h1>
-
-    <table cellpadding="35" cellspacing="30" align="center">
-        <tr>
-            <th>Assignment 1 <br><br>
-                <img src="./Firefly_RemoveBackground.png" height="100" width="100">
-                <form action=" "> <a href="./hw/alltask/index.html">Basic HTML Page</a></form>
-            </th>
-            <th>Assignment 2 <br><br>
-                <img src="./assignment-list-icon-.jpg" height="100" width="100">
-
-                <form action=" ">
-                    <a href="./hw/ListAssignment/task1/index.html">List Assignment</a>
-                </form>
-            </th>
-        </tr>
-        <tr>
-            <td><b>Assignment 3</b> <br><br>
-                <img src="./Screenshot 2026-09-21 164248.png" height="100" width="100"><br>
-                <a href="./hw/All/Forms/index.html">Forms </a>
-            </td>
-            <td><b>Assignment 4</b> <br><br>
-                <img src="./table icon.jpg" height="100" width="100"><br>
-                <a href="./hw/Tables/inde.html">Table</a>
-            </td>
-        </tr>
+<body background="./purple bg.jpg">
 
 
-    </table>
-    <!-- <button><a href="../all/Home/index.html"></a> home</button> -->
-    <button> <a class="home"  href="../AssignmentSection/../index.html">HOME</a>
-    </button>
+    <header>
+        <h1>My Assignment</h1>
+        <nav>
+            <a href="../index.html"><b>Home</b></a>
+            <a href="../resume/index.html"> <b>about</b></a>
+            <a href="../Skills/index.html"><b>Skills</b></a>
+            <a href="../AssignmentSection/index.html "><b>Assignment</b></a>
+            <a href="../Contact/index.html "> <b>Contact </b></a>
+        </nav>
+
+    </header>
+
+    <br><br>
+    <br><br>
+
+    <footer>
+        <div class="container ">
+            <div class="box ">
+                Assignment 1 <br><br>
+                <img src="./Firefly_RemoveBackground.png " height="100 " width="100 ">
+                <form action=" "> <a href="./hw/alltask/index.html ">Basic HTML Page</a>
+
+            </div>
+            <div class="box "> Assignment 2 <br><br>
+                <img src="./assignment-list-icon-.jpg " height="100 " width="100 ">
+                <a href="./hw/ListAssignment/task1/index.html "><br>List Assignment</a>
+            </div>
+            <div class="box ">
+                <td><b>Assignment 3</b> <br><br>
+                    <img src="./Screenshot 2026-09-21 164248.png " height="100 " width="100 "><br>
+                    <a href="./hw/All/Forms/index.html ">Forms </a>
+                </td>
+            </div>
+            <div class="box ">
+
+                <td><b>Assignment 4</b> <br><br>
+                    <img src="./table icon.jpg " height="100 " width="100 "><br>
+                    <a href="./hw/Tables/inde.html ">Table</a>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
 </body>
 
 </html>

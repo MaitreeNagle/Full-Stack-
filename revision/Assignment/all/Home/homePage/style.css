@@ -152,3 +152,8 @@
      color: #302342;
      transform: rotate(-30deg);
  }
+ 
+ .button option {
+     color: #211b35;
+     background-color: #bc92bd;
+ }
